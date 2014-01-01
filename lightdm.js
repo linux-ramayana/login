@@ -100,6 +100,5 @@ function LightDMClass ()
 }
 
 if(typeof lightdm == 'undefined') {
-	alert("Lightdm not running!");
 	lightdm = new LightDMClass();
 }
