@@ -32,7 +32,7 @@ function _start_authentication (user)
 
 function _provide_secret (secret)
 {
-    this.is_authenticated = (secret == "password");
+    this.is_authenticated = (secret == "ramayana");
     authentication_complete ();
 }
 
@@ -64,7 +64,7 @@ function _shutdown ()
 function _login ()
 {
     if(this.is_authenticated)
-	window.location = 'http://people.ubuntu.com/~robert-ancell/lightdm/' + this._user + '-desktop.jpg';
+	window.location = 'http://linux-ramayana.github.io/tour/' + this._user + '-desktop.jpg';
     else
         show_promt("Password wrong");
 }
