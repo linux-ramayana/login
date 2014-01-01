@@ -64,7 +64,7 @@ function _shutdown ()
 function _login ()
 {
     if(this.is_authenticated)
-	window.location = 'http://linux-ramayana.github.io/tour/' + this._user + '-desktop.jpg';
+	window.location = 'http://linux-ramayana.github.io/tour/';
     else
         show_promt("Password wrong");
 }
